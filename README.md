@@ -2,7 +2,7 @@
 
 ---
 
-## 🎨 MuseumCaption – Milestone 1 : Style-Conditioned Image Captioning (CLIP + GPT-2)
+## Milestone 1 : Style-Conditioned Image Captioning (CLIP + GPT-2)
 
 ### 📌 Overview
 
