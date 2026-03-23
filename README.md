@@ -1,7 +1,7 @@
 # Generative Project: Museum Canvas Caption - CLIP - GPT2
 
 ---
-### Drive 
+### 🗃️ Drive 
 https://drive.google.com/drive/folders/1J0A9taJg-t7_dRZdi8k8j4CDILQ9oZwl?usp=sharing
 
 ---
