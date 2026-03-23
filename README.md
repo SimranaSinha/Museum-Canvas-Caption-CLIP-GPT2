@@ -47,7 +47,7 @@ This milestone establishes the baseline caption generation before embedding inje
 ## 📁 Files Included
 
 ```
-Milestone 1/
+🗂️ Milestone 1/
 │
 ├── 📄 Baseline_code.ipynb
 │
