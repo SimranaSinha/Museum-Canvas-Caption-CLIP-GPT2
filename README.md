@@ -1,6 +1,10 @@
 # Generative Project: Museum Canvas Caption - CLIP - GPT2
 
 ---
+### Drive 
+https://drive.google.com/drive/folders/1J0A9taJg-t7_dRZdi8k8j4CDILQ9oZwl?usp=sharing
+
+---
 
 ## Milestone 1 : Style-Conditioned Image Captioning (CLIP + GPT-2)
 
