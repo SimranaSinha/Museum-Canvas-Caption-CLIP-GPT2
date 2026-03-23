@@ -32,8 +32,8 @@ Milestone 1 focuses on:
 
 ## 🗂️ Dataset
 
-**Dataset Used:** Flickr30k
-**Source:** HuggingFace dataset
+- **Dataset Used:** Flickr30k
+- **Source:** HuggingFace dataset
 
 ### Dataset Processing
 
