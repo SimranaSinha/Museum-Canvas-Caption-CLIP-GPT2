@@ -22,11 +22,17 @@ This milestone focuses on integrating the CLIP image encoder with the GPT-2 lang
 Milestone 2/
 │
 ├── Milestone_2_Pri_2.ipynb      – CLIP + GPT-2 caption generation notebook
+│
 ├── Milestone_2_Group_5.pdf      – Milestone report
+│
 ├── demo_Test_1_(1).png          – Caption output example
+│
 ├── demo_Test_4.png              – Caption output example
+│
 ├── demo_test3.png               – Caption output example
+│
 ├── training_loss_v2.png         – Training loss plot
+│
 └── README.md                    – Documentation
 ```
 
