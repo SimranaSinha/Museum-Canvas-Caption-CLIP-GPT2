@@ -1,12 +1,14 @@
-# Milestone 2 – CLIP + GPT-2 Caption Generation
+# 🎨 MuseumCaption – Milestone 2
 
-### Overview
+##  CLIP + GPT-2 Caption Generation
+
+## 📌  Overview
 
 This milestone focuses on integrating the CLIP image encoder with the GPT-2 language model to generate captions for artwork images. The CLIP model converts images into embeddings, and GPT-2 generates captions conditioned on those embeddings. Different decoding strategies were tested and caption outputs were analyzed.
 
 ---
 
-### Objectives
+## 🎯 Objectives
 
 * Integrate CLIP image encoder with GPT-2 language model
 * Inject image embeddings into GPT-2 for caption generation
@@ -16,29 +18,29 @@ This milestone focuses on integrating the CLIP image encoder with the GPT-2 lang
 
 ---
 
-### Files in this Milestone
+## 📁 Repository Structure
 
 ```
-Milestone 2/
+🗂️ Milestone 2/
 │
-├── Milestone_2_Pri_2.ipynb      – CLIP + GPT-2 caption generation notebook
+├── 📄 Milestone_2_Pri_2.ipynb      – CLIP + GPT-2 caption generation notebook
 │
-├── Milestone_2_Group_5.pdf      – Milestone report
+├── 📄 Milestone_2_Group_5.pdf      – Milestone report
 │
-├── demo_Test_1_(1).png          – Caption output example
+├── 🎞️ demo_Test_1_(1).png          – Caption output example
 │
-├── demo_Test_4.png              – Caption output example
+├── 🎞️ demo_Test_4.png              – Caption output example
 │
-├── demo_test3.png               – Caption output example
+├── 🎞️ demo_test3.png               – Caption output example
 │
-├── training_loss_v2.png         – Training loss plot
+├── 🎞️ training_loss_v2.png         – Training loss plot
 │
-└── README.md                    – Documentation
+└── 📘 README.md                    – Documentation
 ```
 
 ---
 
-### Methodology
+## 📑 Methodology
 
 1. Images are passed through the CLIP image encoder.
 2. CLIP generates image embeddings.
@@ -51,7 +53,7 @@ Milestone 2/
 
 ---
 
-### Results
+##  📊 Results
 
 * The model successfully generated captions from artwork images.
 * Training loss decreased over time indicating learning.
@@ -61,7 +63,7 @@ Milestone 2/
 
 ---
 
-### Training Loss
+### 📉 Training Loss
 
 Training loss plot is included in:
 
@@ -73,7 +75,7 @@ This shows the model learning trend during training.
 
 ---
 
-### Conclusion
+## ✅ Conclusion
 
 Milestone 2 successfully integrates CLIP and GPT-2 for image caption generation. The model is able to generate captions from images, and decoding strategy plays an important role in caption quality. This milestone forms the foundation for style-conditioned caption generation in the next milestone.
 
