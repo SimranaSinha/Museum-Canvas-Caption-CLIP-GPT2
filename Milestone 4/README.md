@@ -161,6 +161,6 @@ This milestone focuses on making the system more flexible and interactive by all
 
 ## ✅ Conclusion
 
-Milestone 4 successfully enhances VisionScript into a **multi-functional vision-language system**. The addition of paragraph captions and VQA significantly improves usability, making the system more interactive and closer to real-world applications like assistive AI, smart search, and visual storytelling.
+This milestone successfully enhances VisionScript into a **multi-functional vision-language system**. The addition of paragraph captions and VQA significantly improves usability, making the system more interactive and closer to real-world applications like assistive AI, smart search, and visual storytelling.
 
 
