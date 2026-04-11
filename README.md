@@ -180,3 +180,65 @@ This milestone represents the final system evaluation and comparison stage of th
 
 ---
 
+## Milestone 4 : Multi-Mode Captioning and Visual Question Answering
+
+### 📌 Overview
+
+Milestone 4 extends the image captioning system by introducing **multi-mode caption generation** and **visual question answering (VQA)** using the BLIP model. This milestone enhances the system’s ability to generate both concise and detailed captions, while also enabling interactive question-based understanding of images.
+
+This milestone represents the transition from static caption generation to a more flexible and interactive vision-language system.
+
+### 🎯 Milestone 4 Tasks
+* Implementation of BLIP-based caption generation
+* Multi-mode captioning (Single + Paragraph)
+* Visual Question Answering (VQA) integration
+* Caption comparison across modes
+* Qualitative evaluation of generated outputs
+* Result visualization and documentation
+* Final system testing and validation
+
+
+### 🧠 Model Pipeline
+**Image → BLIP Encoder-Decoder → Caption / Answer Generation**
+
+**Modes Implemented:**
+* Single Caption (Concise Output)
+* Paragraph Caption (Detailed Output)
+* Visual Question Answering (Q&A Output)
+
+### 📊 Milestone 4 Results
+
+* Paragraph mode generated richer and more descriptive captions
+* Single mode produced short and efficient summaries
+* VQA successfully answered context-based questions from images
+* Model demonstrated strong understanding of objects, scenes, and spatial relationships
+* System supports flexible output formats for different use cases
+* Final system successfully integrates captioning and reasoning capabilities
+
+
+### 📁 Files Included
+
+```
+🗂️ Milestone 4
+│
+├── 📑 Results/
+│   │
+│   ├── 🖼️ VisionScript_paragraph_20260409_160452.png   # Lion – Paragraph
+│   │
+│   ├── 🖼️ VisionScript_paragraph_20260410_003347.png   # Group Scene – Paragraph
+│   │
+│   ├── 🖼️ VisionScript_paragraph_20260410_003722.png   # Sand Dune – Paragraph
+│   │
+│   ├── 🖼️ VisionScript_single_20260409_160448.png      # Lion – Single Caption
+│   │
+│   └── 🖼️ VisionScript_vqa_20260410_003730.png         # VQA Output
+│
+├── 📄 Final_Prj2.ipynb
+│
+├── 📄 Final_Prj2NNDL.ipynb
+│
+└── 📘 README.md
+```
+
+---
+
