@@ -6,47 +6,35 @@ https://drive.google.com/drive/folders/1J0A9taJg-t7_dRZdi8k8j4CDILQ9oZwl?usp=sha
 
 ---
 
-## Milestone 1 : Style-Conditioned Image Captioning (CLIP + GPT-2)
-
+## Milestone 1 : Automatic Image Captioning Baseline (BLIP + CLIP)
 ### 📌 Overview
-
-Milestone 1 focuses on building the baseline pipeline for a style-conditioned image captioning system. The system uses CLIP to extract image embeddings and GPT-2 to generate captions in different styles using prompt prefixes.
-
-This milestone establishes the baseline caption generation before embedding injection and fine-tuning in later milestones.
+Milestone 1 focuses on building the baseline pipeline for automatic image captioning using BLIP. The system uses CLIP to extract image embeddings and BLIP to generate a single, fluent natural-language caption per image.
+This milestone establishes the baseline caption generation before fine-tuning in later milestones.
 
 ### 🎯 Milestone 1 Tasks
-
-* Flickr30k dataset selection and preprocessing
-* Caption filtering and dataset subset creation
-* CLIP embedding extraction
-* GPT-2 caption generation baseline
-* Style prompt conditioning
-* Baseline caption test runs
-* Repository setup and documentation
+- Flickr30k dataset selection and preprocessing
+- Caption filtering and dataset subset creation (1k pairs)
+- CLIP embedding extraction (512-dim, L2-normalized)
+- GPT-2 tokenizer setup for caption analysis
+- BLIP baseline caption generation (unconditional)
+- 5 sample image:caption test runs
+- Repository setup and documentation
 
 ### 🧠 Model Pipeline
-
-**Image → CLIP Encoder → Style Prompt → GPT-2 → Generated Caption**
+**Image → CLIP Encoder → 512-dim Embedding**
+**Image → BLIP Processor → BLIP Decoder → Generated Caption**
 
 **Models Used:**
-
-* CLIP ViT-B/32 (Image Encoder)
-* GPT-2 Base (Language Model)
-
-**Styles Implemented:**
-
-* Art Critic
-* Casual Visitor
-* Children’s Guide
+- CLIP ViT-B/32 (Image Encoder)
+- BLIP blip-image-captioning-base (Caption Generation)
+- GPT-2 Tokenizer (Caption Preprocessing Only)
 
 ### 📊 Milestone 1 Results
-
-* Baseline captions generated successfully
-* Style prompts changed tone of captions
-* Captions were fluent but not image-grounded
-* CLIP embeddings extracted but not injected yet
-* Embedding injection will be implemented in Milestone 2
-
+- Baseline captions generated successfully using BLIP
+- Captions are fluent and image-grounded out of the box
+- CLIP embeddings extracted and cached (512-dim)
+- GPT-2 tokenizer used to analyze caption length distribution
+- Fine-tuning on Flickr30k will be implemented in Milestone 2
 
 ## 📁 Files Included
 
@@ -56,6 +44,8 @@ This milestone establishes the baseline caption generation before embedding inje
 ├── 📄 Baseline_code.ipynb
 │
 ├── 📄 Project_Proposal.pdf
+│
+├── 🖼️ baseline_captions.png
 │
 ├── 📘 README.md
 ```
