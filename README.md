@@ -41,7 +41,7 @@ This milestone establishes the baseline caption generation before fine-tuning in
 ```
 🗂️ Milestone 1/
 │
-├── 📄 Baseline_code.ipynb
+├── 📄 Milestone_1_Prj2.ipynb
 │
 ├── 📄 Project_Proposal.pdf
 │
