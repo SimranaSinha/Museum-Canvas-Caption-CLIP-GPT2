@@ -1,4 +1,4 @@
-# 🎨 MuseumCaption – Milestone 1
+# VisionScript – Milestone 1
 
 ## Style-Conditioned Image Captioning using CLIP + GPT-2
 
