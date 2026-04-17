@@ -1,4 +1,4 @@
-# Generative Project: VisionScript-ImageCaptioning - BLIP
+# 🔭 Generative Project: VisionScript-ImageCaptioning - BLIP
 
 ---
 ### 🗃️ Drive 
@@ -7,6 +7,22 @@ https://drive.google.com/drive/folders/1J0A9taJg-t7_dRZdi8k8j4CDILQ9oZwl?usp=sha
 ### 🔗 Live Link
 https://huggingface.co/spaces/Simi2407/VisionScript
 
+## 📁 Structure of Repo
+```
+🗂️ VisionScript-ImageCaptioning-BLIP/
+│
+├── 📁 Milestone 1/
+│
+├── 📁 Milestone 2/
+│
+├── 📁 Milestone 3/
+│
+├── 📁 Milestone 4/
+│
+├── 📄 Group5_Report.pdf
+│
+└── 📘 README.md
+```
 ---
 
 ## Milestone 1 : Automatic Image Captioning Baseline (BLIP + CLIP)
