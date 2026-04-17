@@ -203,26 +203,36 @@ This milestone represents the transition from static caption generation to a mor
 ### 📁 Files Included
 
 ```
-🗂️ Milestone 4
+📁 Milestone 4/
 │
-├── 📑 Results/
+├── 📁 Hugging Face/
+│   ├── 🐍 app.py
 │   │
-│   ├── 🖼️ VisionScript_paragraph_20260409_160452.png   # Lion – Paragraph
-│   │
-│   ├── 🖼️ VisionScript_paragraph_20260410_003347.png   # Group Scene – Paragraph
-│   │
-│   ├── 🖼️ VisionScript_paragraph_20260410_003722.png   # Sand Dune – Paragraph
-│   │
-│   ├── 🖼️ VisionScript_single_20260409_160448.png      # Lion – Single Caption
-│   │
-│   └── 🖼️ VisionScript_vqa_20260410_003730.png         # VQA Output
+│   └── 📄 requirements.txt
 │
-├── 📄 Final_Prj2.ipynb
+├── 📁 Results/
+│   ├── 🖼️ VisionScript_paragraph_20260409_160452.png
+│   │
+│   ├── 🖼️ VisionScript_paragraph_20260410_003347.png
+│   │
+│   ├── 🖼️ VisionScript_paragraph_20260410_003722.png
+│   │
+│   ├── 🖼️ VisionScript_single_20260409_160448.png
+│   │
+│   └── 🖼️ VisionScript_vqa_20260410_003730.png
 │
-├── 📄 Final_Prj2NNDL.ipynb
+├── 📓 Final_Prj2NNDL.ipynb
 │
-└── 📘 README.md
+├── 📓 Final_Prj2.ipynb
+│
+├── 🎞️ Group5_Presentation.pptx
+│
+├── 🎬 Group5_Recording.mp4
+│
+└── 📘 README.md      
 ```
+
+
 
 ---
 
